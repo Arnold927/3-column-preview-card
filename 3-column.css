@@ -1,0 +1,65 @@
+
+body{
+  font-size: 15px;
+}
+#body{
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#single{
+padding: 20px;
+}
+#single h3{
+  font-weight: 700;
+  font-family: Big Shoulders Display;
+  color:hsl(0, 0%, 95%);
+}
+#single p{
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 60%;
+  line-height: 26px;
+}
+.sedans{
+  background-color:hsl(31, 77%, 52%) ;
+}
+.sedan{
+  color:hsl(31, 77%, 52%);
+}
+.suvs{
+  background-color:hsl(184, 100%, 22%) ;
+}
+.suv{
+  color:hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color:hsl(179, 100%, 13%) ;
+}
+.lux{
+  color: hsl(179, 100%, 13%);
+}
+#button{
+  padding: 12px 28px 12px 28px;
+  border-radius: 22px;
+  border: none;
+  background-color:hsl(0, 0%, 95%);
+  justify-content: baseline;
+}
+#button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.15s;
+}
+@media(min-width:550px){
+  #body{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+  }
+}
